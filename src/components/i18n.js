@@ -25,7 +25,9 @@ const resources = {
       "navbarContacto": "Contacto",
       "aboutmeh1": "¡Hola! Bienvenidos a mi página de comisiones.",
       "aboutmeP": "Soy Lissaru, una humana jugadora de osu!, estudiante y streamer que vende banners, avatars y overlays para osu! y tus streams de Twitch. Aquí encontrarás trabajos previos que he hecho, junto a mi contacto si te interesa algo. (˵ •̀ ᴗ - ˵ ) ✧",
-      "dineroValue": "Valor: "
+      "dineroValue": "Valor: ",
+      "avatarBordes": "Bordes",
+      "avatarTrabajos": "Trabajos"
 
     }
   }
