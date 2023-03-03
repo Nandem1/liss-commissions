@@ -22,45 +22,66 @@ import baseavatar3 from '../assets/baseavatar3.png'
 import baseavatar4 from '../assets/baseavatar4.png'
 import baseavatar5 from '../assets/baseavatar5.png'
 import baseavatar6 from '../assets/baseavatar6.png'
+import baseavatarshape1 from '../assets/baseavatarshape1.png'
+import baseavatarshape2 from '../assets/baseavatarshape2.png'
+import baseavatarshape3 from '../assets/baseavatarshape3.png'
+import baseavatarshape4 from '../assets/baseavatarshape4.png'
+import baseavatarshape5 from '../assets/baseavatarshape5.png'
+import baseavatarshape6 from '../assets/baseavatarshape6.png'
+import baseavatarshape7 from '../assets/baseavatarshape7.png'
 
 function Avatars() {
     const { t } = useTranslation()
 
     return (
         <Container fluid className='bg-light text-black text-center p-5'>
-            <h2>Avatars</h2>
+            <h2 id='avatars'>Avatars</h2>
             <h3 className='fs-4 text-info'>{t('dineroValue')}$3 USD</h3>
             <Row md={2} sm={1} xs={1}>
                 <Col>
                     <h4 className='mb-4'>{t('avatarBordes')}</h4>
                     <div className='my-2 d-flex justify-content-center align-items-center gap-4'>
-                        <Image src={baseavatar1} />
-                        <Image src={baseavatar2} />
-                        <Image src={baseavatar3} />
-                        <Image src={baseavatar4} />
-                        <Image src={baseavatar5} />
-                        <Image src={baseavatar6} />
+                        <Image className='baseavatarshapeimg' src={baseavatar1} />
+                        <Image className='baseavatarshapeimg' src={baseavatar2} />
+                        <Image className='baseavatarshapeimg' src={baseavatar3} />
+                    </div>
+                    <div className='my-2 d-flex justify-content-center align-items-center gap-4'>
+                        <Image className='baseavatarshapeimg' src={baseavatar4} />
+                        <Image className='baseavatarshapeimg' src={baseavatar5} />
+                        <Image className='baseavatarshapeimg' src={baseavatar6} />
+                    </div>
+                    <h4>{t('avatarForma')}</h4>
+                    <div className='my-2 d-flex justify-content-center align-items-center gap-4'>
+                        <Image className='baseavatarshapeimg' src={baseavatarshape1} />
+                        <Image className='baseavatarshapeimg' src={baseavatarshape2} />
+                        <Image className='baseavatarshapeimg' src={baseavatarshape3} />
+                        <Image className='baseavatarshapeimg' src={baseavatarshape4} />
+                    </div>
+                    <div className='my-2 d-flex justify-content-center align-items-center gap-4'>
+                        <Image className='baseavatarshapeimg' src={baseavatarshape5} />
+                        <Image className='baseavatarshapeimg' src={baseavatarshape6} />
+                        <Image className='baseavatarshapeimg' src={baseavatarshape7} />
                     </div>
                 </Col>
                 <Col>
                     <h4 className='mb-4'>{t('avatarTrabajos')}</h4>
                     <div className='my-2 d-flex justify-content-center align-items-center gap-4'>
-                        <Image src={avatar1} />
-                        <Image src={avatar2} />
-                        <Image src={avatar3} />
-                        <Image src={avatar4} />
+                        <Image className='baseavatarshapeimg' src={avatar1} />
+                        <Image className='baseavatarshapeimg' src={avatar2} />
+                        <Image className='baseavatarshapeimg' src={avatar3} />
+                        <Image className='baseavatarshapeimg' src={avatar4} />
                     </div>
                     <div className='my-2 d-flex justify-content-center align-items-center gap-4'>
-                        <Image src={avatar5} />
-                        <Image src={avatar6} />
+                        <Image className='baseavatarshapeimg' src={avatar5} />
+                        <Image className='baseavatarshapeimg' src={avatar6} />
                         <Image src={avatar7} />
                         <Image src={avatar8} />
                     </div>
                     <div className='my-2 d-flex justify-content-center align-items-center gap-4'>
-                        <Image src={avatar9} />
-                        <Image src={avatar10} />
-                        <Image src={avatar11} />
-                        <Image src={avatar12} />
+                        <Image className='baseavatarshapeimg' src={avatar9} />
+                        <Image className='baseavatarshapeimg' src={avatar10} />
+                        <Image className='baseavatarshapeimg' src={avatar11} />
+                        <Image  src={avatar12} />
                     </div>
                 </Col>
             </Row>
