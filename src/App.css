@@ -82,6 +82,13 @@ h1 {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+.overlayimage {
+  width: calc(1920px / 4.5);
+  height: calc(1080px / 4.5);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: rgba(239, 254, 254, 0.773);
+}
+
 @media (max-width: 750px) {
   .about-me-container {
     width: 99% !important;
@@ -109,5 +116,10 @@ h1 {
   .baseavatarshapeimg {
     width: calc(200px / 2.8);
     height: calc(250px / 2.8);
+  }
+
+  .overlayimage {
+    width: calc(1920px / 5.5);
+    height: calc(1080px / 5.5);
   }
 }

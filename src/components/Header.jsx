@@ -19,7 +19,7 @@ function Header() {
                         <Nav.Link href="#banners">{t('navbarBanners')}</Nav.Link>
                         <Nav.Link href="#beatmapbanner">{t('navbarBeatmapBanner')}</Nav.Link>
                         <Nav.Link href="#avatars">{t('navbarAvatars')}</Nav.Link>
-                        <Nav.Link href="#features">{t('navbarOverlays')}</Nav.Link>
+                        <Nav.Link href="#overlays">{t('navbarOverlays')}</Nav.Link>
                         <Nav.Link href="#features">{t('navbarContacto')}</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
