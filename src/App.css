@@ -1,101 +1,113 @@
-@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap");
 
 html {
-    scroll-behavior: smooth;
-    scroll-padding-top: 100px;
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
 }
 
 body {
-    background-image: linear-gradient(45deg, #ffcdd4, #ffb6c1);
-    background-size: 400% 400%;
-    animation: gradient 10s ease infinite;
-    color: rgb(255, 255, 255) !important;
-    font-family: 'GFS Didot';
-    font-weight: 400;
+  background-image: linear-gradient(45deg, #ffcdd4, #ffb6c1);
+  background-size: 400% 400%;
+  animation: gradient 10s ease infinite;
+  color: rgb(255, 255, 255) !important;
+  font-family: "GFS Didot";
+  font-weight: 400;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
   }
-  
-  @keyframes gradient {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 .text-shadow {
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.553);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.553);
 }
 
 .text-lighter {
-    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.76);
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.76);
 }
 
 h1 {
-    font-size: 52px !important;
+  font-size: 52px !important;
 }
 
 .lissprofile {
-    width: 300px;
-    height: auto;
-    object-fit: cover;
+  width: 300px;
+  height: auto;
+  object-fit: cover;
 }
 
 .about-me-container {
-    width: 95% !important;
-    min-height: 100vh;
+  width: 95% !important;
+  min-height: 100vh;
 }
 
 .about-me-background {
-    background-image: url('../src/assets/foto_fondo.jpg');
-    background-size: cover;
+  background-image: url("../src/assets/foto_fondo.jpg");
+  background-size: cover;
 }
 
 .bg-pink {
-    background-color: #ffd1d8c5;
+  background-color: #ffd1d8c5;
 }
 
 .bannerimg {
-    width: 623px;
-    height: 190px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 623px;
+  height: 190px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .bmbannerimg {
-    width: calc(415px * 1.1);
-    height: calc(120px * 1.1);
-    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.807);
+  width: calc(415px * 1.1);
+  height: calc(120px * 1.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.baseavatarsimg {
+  width: 128px;
+  height: 128px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .baseavatarshapeimg {
-    width: 128px;
-    height: 128px;
+  width: calc(200px / 1.5);
+  height: calc(250px / 1.5);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 @media (max-width: 750px) {
-    .about-me-container {
-        width: 99% !important;
-    }
+  .about-me-container {
+    width: 99% !important;
+  }
 
-    h1 {
-        font-size: 38px !important;
-    }
+  h1 {
+    font-size: 38px !important;
+  }
 
-    .bannerimg {
-        width: calc(623px / 1.8);
-        height: calc(190px / 1.8);
-    }
+  .bannerimg {
+    width: calc(623px / 1.8);
+    height: calc(190px / 1.8);
+  }
 
-    .bmbannerimg {
-        width: calc(623px / 1.8);
-        height: calc(190px / 1.8);
-    }
+  .bmbannerimg {
+    width: calc(623px / 1.8);
+    height: calc(190px / 1.8);
+  }
 
-    .baseavatarshapeimg {
-        width: calc(128px / 1.5);
-        height: calc(128px / 1.5);
-    }
+  .baseavatarsimg {
+    width: calc(128px / 1.8);
+    height: calc(128px / 1.8);
+  }
+
+  .baseavatarshapeimg {
+    width: calc(200px / 2.8);
+    height: calc(250px / 2.8);
+  }
 }
